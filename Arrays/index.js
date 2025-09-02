@@ -72,3 +72,4 @@ numbers.map((num)=>{
 // what is array cloning: creating copy of existing array
 // what is deep cloning and shallow cloning, one layer clone: shallow clone, all layers clone deep clone
 // best way to clone the array: for new browsers use structuredClone, for older browsers use lodash npm library, for only values no function use JSON
+// static methods in Arrays: from, isArray, of etc.
