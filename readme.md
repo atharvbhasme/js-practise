@@ -7,3 +7,5 @@
 ### [Arrays](Arrays/arrays.md)
 
 ### [Objects](Objects/object.md)
+
+### [ES6](ES6/es6.md)
