@@ -38,5 +38,8 @@ outer(); // Output: I am outer
 // working of JS in global(lexical), functiona scope ?
 // pitfall of this: when you copy the funtion in other varible call that varible it will give you undefined in value of this
 // remeber the arrow function use of this. arrow function should be called inside fn to use this in arrow function method chaning using this
-// what is clousers ?
-//
+// what is clousers ? clouser is function, that access the varibles in outerfunctions scope even when outer function
+// excustion is completed.
+// how clouser work: clouser the remember enviroment of outer function
+// how to create the clousers: return the function with outer function private varibles. see the funciton factory examples
+// real life use cases: privacy, event handlings and functional programming 

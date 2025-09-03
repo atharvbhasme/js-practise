@@ -81,5 +81,8 @@ setTimeout(() => {
 // when we should call regular functions and arrow functions ?
 // What is use this in functions and how this works in arrow functions (Note arrow function does not have there own this they take it from
 // surroudind)
+// While IIFEs were essential before ES6 modules, their importance has decreased with the widespread adoption of:
+// ES6 Modules (import/export): The modern, native way to achieve privacy and avoid global pollution.
+// let/const: Block scoping solves many of the loop variable capture issues.
 
 

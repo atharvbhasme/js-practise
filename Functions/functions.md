@@ -16,15 +16,17 @@ why we get error because the TDZ (temporal dead zone) = time between scope/block
 
 TDZ apply for functions ? (For function declaration and var function expression No but for let and const function expression yes)
 
- **Always declare variables and functions at the top of their scope to avoid confusion with hoisting.** 
+IIFEs: call function immedailty after defination. use mmostely for privacy but improtant before es6
+
+**Always declare variables and functions at the top of their scope to avoid confusion with hoisting.**
 
 when we should call regular functions and arrow functions ?
 
-| Task | Use |
-| --- | --- |
-| Object or class method | Regular 🔄 |
-| Simple callback / short function | Arrow ✅ |
+| Task                                   | Use        |
+| -------------------------------------- | ---------- |
+| Object or class method                 | Regular 🔄 |
+| Simple callback / short function       | Arrow ✅   |
 | Function needing `this` or `arguments` | Regular ✅ |
-| Avoiding `this` bugs in nested scopes | Arrow ✅ |
+| Avoiding `this` bugs in nested scopes  | Arrow ✅   |
 
 What is use this in functions and how this works in arrow functions (Note arrow function does not have there own this they take it from surrounding
