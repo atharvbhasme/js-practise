@@ -9,6 +9,7 @@ getUser(1, function(err, user) {
     console.error("Error getting user:", err);
     return;
   }
+  
   console.log("User:", user);
   getPosts(user.id, function(err, posts) {
     if (err) {
