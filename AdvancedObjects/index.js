@@ -2,6 +2,19 @@
 
 //What are the constrctor functions?
 
+//access modifiers in JS
+//old JS only support public (default) access modfiers
+//es22 support private access modifiers
+//protected access modfier are naming convention
+
+//e.g.
+// Quick Example
+class Example {
+  publicValue = 1;     // Public
+  #privateValue = 2;   // Private
+  _protectedValue = 3; // Protected (convention)
+}
+
 // what are the class in JS
 // class in JS are blueprints for creating objects with similar properties and methods.
 // classes are only avaible in ES6 and later versions of JS.\

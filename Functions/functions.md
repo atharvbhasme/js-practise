@@ -30,3 +30,11 @@ when we should call regular functions and arrow functions ?
 | Avoiding `this` bugs in nested scopes  | Arrow ✅   |
 
 What is use this in functions and how this works in arrow functions (Note arrow function does not have there own this they take it from surrounding
+
+what is difference between static methods and instance methods?
+static methods belong to class
+insatce merthods belong to object, need to create the object from class using new keyword to access instace methods
+
+can we access this in static methods?NO
+can we call static methods in instace?No. They are only accessible via the class name.
+can static methods call anoter static method?yes

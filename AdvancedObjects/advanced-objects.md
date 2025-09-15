@@ -16,3 +16,9 @@
 - can you override the methods in child class? Yes
 - what if you don't use super in child class constructor?will get reference error
 - can you extneds more than one class in JS?NO, JS does not support multiple inheritance using classes. A class can only extend one parent class.
+
+| Modifier               | Syntax  | Who can access?         | Real Use                                    |
+| ---------------------- | ------- | ----------------------- | ------------------------------------------- |
+| Public                 | `name`  | Anyone                  | General info like `owner`                   |
+| Private                | `#name` | Only inside class       | Sensitive data like `#password`, `#balance` |
+| Protected (convention) | `_name` | Anyone (but should not) | Internal-use fields                         |
